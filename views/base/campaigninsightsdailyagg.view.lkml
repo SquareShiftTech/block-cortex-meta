@@ -1,5 +1,5 @@
 view: campaigninsightsdailyagg {
-  sql_table_name: `@{GCP_PROJECT_ID}.@{REPORTING_DATASET}.CampaignInsightsDailyAgg` ;;
+  sql_table_name: `bigquery-expertise.CORTEX_META_REPORTING.CampaignInsightsDailyAgg` ;;
 
   dimension_group: date {
     type: time

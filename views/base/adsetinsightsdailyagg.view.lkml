@@ -1,5 +1,5 @@
 view: adsetinsightsdailyagg {
-  sql_table_name: `@{GCP_PROJECT_ID}.@{REPORTING_DATASET}.AdsetInsightsDailyAgg` ;;
+  sql_table_name: `bigquery-expertise.CORTEX_META_REPORTING.AdsetInsightsDailyAgg` ;;
 
   dimension: date {
     type: date

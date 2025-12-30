@@ -1,5 +1,5 @@
 view: campaign {
-  sql_table_name: `@{GCP_PROJECT_ID}.@{REPORTING_DATASET}.Campaign` ;;
+  sql_table_name: `bigquery-expertise.CORTEX_META_REPORTING.Campaign` ;;
 
   dimension: name {
     type: string

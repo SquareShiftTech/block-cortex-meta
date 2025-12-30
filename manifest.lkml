@@ -1,16 +1,16 @@
 
 
 constant: CONNECTION_NAME {
-  value: "connection"
+  value: "block-cortex-meta"
   export: override_required
 }
 
 constant: GCP_PROJECT_ID {
-  value: "GCP Project ID"
+  value: "bigquery-expertise"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "CORTEX_META_REPORTING"
   export: override_required
 }
